@@ -19,7 +19,7 @@ public void setup()
 {
   size(300,300);//your code here
   background(0);
-  cluster = new SnowFlake[100];
+  cluster = new SnowFlake[1000];
   for (int i = 0; i < cluster.length; i++){
     cluster[i] = new SnowFlake();
   }
